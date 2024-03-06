@@ -1,1 +1,130 @@
+This is the history
+
+
+ pwd
+  502  mkdir Assess0065
+  503  cd Assess0065
+  504  mkdir sub_1
+  505  mkdir sub_2
+  506  touch first.txt
+  507  git add .
+  508  touch .gitignore
+  509  touch 1st.txt
+  510  nano 1st.txt
+  511  nano .gitignore
+  512  git init
+  513  git add .
+  514  git commit -a -m"1st.txt is ignored"
+  515  nano 1st.txt
+  516  git status
+  517  touch 2nd.txt
+  518  touch code.c
+  519  touch pro.html
+  520  nano 2nd.txt
+  521  nano code.c
+  522  nano pro.html
+  523  git commit -a -m"change in 3 files Done"
+  524  git add .
+  525  git commit -a -m "changes in 3 files Done"
+  526  nano pro.html
+  527  git commit -a -m"pro.html updated"
+  528  nano code.c
+  529  git commit -a -m"code.c updated"
+  530  ls
+  531  cp 1st.txt sub_1
+  532  cp 2nd.txt sub_1
+  533  cp code.c sub_1
+  534  cp first.txt sub_1
+  535  cp pro.html sub_1
+  536  cd sub_1
+  537  ls
+  538  cd ..
+  539  cp 1st.txt 2nd.txt code.c first.txt pro.html sub_2
+  540  cd sub_2
+  541  ls
+  542  cd ..
+  543  cd sub_2
+  544  nano 1st.txt
+  545  git status
+  546  touch .gitignore
+  547  git add .
+  548  nano .gitignore
+  549  git commit -a -m"sub_2"
+  550  nano 1st.txt
+  551  git status
+  552  cd ..
+  553  cd sub_2
+  554  git commit -a -m"files copied"
+  555  cd ..
+  556  git commit -a -m"sub_1 added"
+  557  git add .
+  558  git commit -a -m"sub_1"
+  559  cd sub_1
+  560  ls
+  561  nano 1st.txt
+  562  git status
+  563  nano .gitignore
+  564  git status
+  565  git rm -r --1st.txt
+  566  git rm -f 1st.txt
+  567  ls
+  568  git rm -r 1st.txt
+  569  cd 1st.txt
+  570  pwd
+  571  git rm -r --/c/Users/addyh/Assess0065/sub_1
+  572  git rm -f --/c/Users/addyh/Assess0065/sub_1
+  573  nano 1st.txt
+  574  git status
+  575  git rm --1st-to-unstage.txt
+  576  git rm --1st.txt
+  577  git restore --1st.txt
+  578  git reset 1st.txt
+  579  git status
+  580  nano 1st.txt
+  581  git status
+  582  git rm --1st.txt
+  583  git rm --1st.txt/
+  584  cd ..
+  585  pwd
+  586  cd sub_1
+  587  git status
+  588  git check-ignore -v 1st.txt
+  589  nano .gitignore
+  590  nano .gitignore
+  591  git add .
+  592  git commit -a -m"1st is traxking now"
+  593  git status
+  594  nano 1st.txt
+  595  git status
+  596  cd ..
+  597  git check-ignore -v 1st.txt
+  598  nano .gitignore
+  599  cd sub_1
+  600  touch .gitignore
+  601  nano .gitignore
+  602  nano 1st.txt
+  603  git status
+  604  git add .
+  605  git commit -a -m"ignore is added by mistake"
+  606  git add 1st.txt
+  607  git add -f 1st.txt
+  608  git status
+  609  git add .
+  610  git commit -a -m""1st.txt is tracked
+  611  git commit -a -m"1st.txt is tracked"
+  612  nano 1st.txt
+  613  git status
+  614  git commit -a -m"1st.txt updated"
+  615  ls
+  616  nano 2nd.txt
+  617  cd ..
+  618  cd sub_2
+  619  git add .
+  620  git commit -a -m"screenshot is added"
+  621  git status
+  622  git history
+  623  git log
+  624  cd ..
+  625  git log
+  626  history
 
